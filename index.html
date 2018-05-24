@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <title>InstaSlam2: jQuery Style!</title>
+</head>
+
+<body>
+
+    <header class="headercito">
+        <span>This is InstaSlam!</span>
+    </header>
+
+    <div class="overlay hidden">
+        <a><i class="fa fa-times"></i></a>
+        <div class="overlay-target" data-overlay-target>
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <div class="cuerpo">
+        <div class="input-bar">
+            <!-- <input type="text" data-input="input-text" value="" onfocus="if (this.value == 'enter konami') {this.value=''}"> -->
+            <input type="text" data-input="input-text" value="">
+        </div>
+        <div class="gallery-wrapper">
+            <a data-arrow id="left"><i class="fa fa-arrow-circle-left"></i></a>
+            <div class="gallery">
+            </div>
+            <a data-arrow id="right"><i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+
+        <div class="cuerpo">
+            <figure data-main-fig class="main-container">
+                <img data-target src="images/terrence.jpg" alt="">
+            </figure>
+        </div>
+    </div>
+   
+    <div class="enlarge">
+        <i>Click image to enlarge.</i>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
